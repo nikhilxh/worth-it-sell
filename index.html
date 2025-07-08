@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Worth It Sell - Artificial Jewellery</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+    body {
+      background-color: #fffaf5;
+      color: #333;
+    }
+    header {
+      background-color: #d4af37;
+      color: white;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    header h1 {
+      font-size: 1.8rem;
+    }
+    nav a {
+      color: white;
+      margin-left: 1.5rem;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    .hero {
+      background-image: url('https://images.unsplash.com/photo-1617088602154-5b8f6a4d6dcd');
+      background-size: cover;
+      background-position: center;
+      color: white;
+      padding: 6rem 2rem;
+      text-align: center;
+    }
+    .hero h2 {
+      font-size: 3rem;
+      font-weight: 600;
+    }
+    .hero p {
+      margin-top: 1rem;
+      font-size: 1.2rem;
+    }
+    .products {
+      padding: 4rem 2rem;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+    }
+    .product {
+      background-color: white;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      text-align: center;
+      padding-bottom: 1rem;
+    }
+    .product img {
+      width: 100%;
+      height: 250px;
+      object-fit: cover;
+    }
+    .product h3 {
+      margin: 1rem 0 0.5rem;
+    }
+    .product p {
+      font-size: 0.9rem;
+      color: #777;
+    }
+    footer {
+      background-color: #222;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Worth It Sell</h1>
+    <nav>
+      <a href="#products">Products</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Shine Without Limits</h2>
+    <p>Explore our stunning collection of artificial jewellery, crafted for elegance and value.</p>
+  </section>
+
+  <section class="products" id="products">
+    <div class="product">
+      <img src="https://images.unsplash.com/photo-1594938298603-640f4f6dfbd7" alt="Earrings">
+      <h3>Golden Bow Hangings</h3>
+      <p>Elegant golden bow design with a modern ethnic twist.</p>
+    </div>
+    <div class="product">
+      <img src="https://images.unsplash.com/photo-1600180758890-48dc11ec73ce" alt="Pendant">
+      <h3>Lord Hanuman Pendant Combo</h3>
+      <p>Spiritual style meets fashion with this stunning pendant combo.</p>
+    </div>
+    <div class="product">
+      <img src="https://images.unsplash.com/photo-1621607514819-3fc9a4f703e4" alt="Studs">
+      <h3>Black Stone Studs</h3>
+      <p>Korean-style sleek studs with bold black stone design.</p>
+    </div>
+  </section>
+
+  <footer id="contact">
+    <p>© 2025 Worth It Sell. All rights reserved.</p>
+    <p>Email: support@worthitsell.com</p>
+  </footer>
+</body>
+</html>
